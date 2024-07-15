@@ -5,7 +5,8 @@ import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav`
-background: ${({ scrollNav }) => (scrollNav ? '#567585' : 'rgba(56, 75, 85, 0.80)')};
+  background: rgba(56, 75, 85, 0.80);
+  backdrop-filter: blur(10px);
   height: 70px;
   display: flex;
   justify-content: center;
