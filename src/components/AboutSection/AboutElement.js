@@ -90,7 +90,7 @@ export const Heading = styled.h1`
 export const Description = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   color: #333;
   padding-left: 2px;

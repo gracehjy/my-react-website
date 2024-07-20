@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection';
 import AboutSection from '../components/AboutSection';
 import ExperienceSection from '../components/ExperienceSection';
+import ContactSection from '../components/ContactSection';
 
 const Home = () => {
   // toggles mobile hamburger icon
@@ -20,6 +21,7 @@ const Home = () => {
       <HeroSection></HeroSection>
       <AboutSection></AboutSection>
       <ExperienceSection></ExperienceSection>
+      <ContactSection></ContactSection>
     </>
   )
 }

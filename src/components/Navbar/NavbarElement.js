@@ -93,13 +93,6 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
   position: relative;
 
-  &.active {
-    &::after {
-      width: 100%;
-      background: #829db2;
-    }
-  }
-
   &::after {
     content: '';
     position: absolute;

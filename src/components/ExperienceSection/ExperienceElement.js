@@ -1,8 +1,9 @@
 import styled, { css } from 'styled-components';
 
 export const ExperienceContainer = styled.div`
-  background-color: #fafafa;
-  padding: 65px 0;
+  background-color: rgba(56, 75, 85, 0.80);
+  padding: 85px 0;
+  height: 100%;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -42,7 +43,6 @@ export const ExperienceCard = styled.div`
   &:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    background: rgba(98,143,167,255);
   }
 
   ${({ isHovered }) =>
@@ -53,15 +53,15 @@ export const ExperienceCard = styled.div`
 `;
 
 export const TopLine2 = styled.p`
-  color: #000;
+  color: #333;
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 16px;
 `;
 
 export const Description = styled.p`
-  color: #000;
-  font-size: 16px;
+  color: #333;
+  font-size: 15px;
 `;
 
 export const ResumeSection = styled.div`
@@ -76,8 +76,8 @@ export const ResumeSection = styled.div`
 
   a {
     background-color: transparent;
-    border: 2px solid #567585;
-    color: #567585;
+    border: 2px solid #333;
+    color: #333;
     padding: 10px 20px;
     font-size: 16px;
     font-weight: 700;
@@ -89,7 +89,7 @@ export const ResumeSection = styled.div`
     width: max-content;
 
     &:hover {
-      background-color: #567585;
+      background-color: #333;
       color: #fff;
     }
 
@@ -104,7 +104,7 @@ export const ResumeSection = styled.div`
 `;
 
 export const ResumeText = styled.p`
-  color: #567585;
+  color: #333;
   font-size: 16px;
   font-weight: 700;
   margin-top: 24px; 
@@ -128,17 +128,17 @@ export const TextWrapper = styled.div`
 `
 
 export const TopLine = styled.p`
-  color: #567585;
+  color: #fafafa;
   font-size: 16px;
   line-height: 28px;
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  margin-botttom: 20px;
+  margin-botttom: 24px;
 `
 
 export const Heading = styled.h1`
-  margin-bottom: 24px;
+  margin-bottom: 12px;
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
