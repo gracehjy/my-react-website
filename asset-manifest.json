@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-react-website/static/css/main.546b2ea6.css",
-    "main.js": "/my-react-website/static/js/main.22a0ea24.js",
+    "main.js": "/my-react-website/static/js/main.da5f9ab5.js",
     "static/media/video.mp4": "/my-react-website/static/media/video.0ebb87dffa0de6eff5c1.mp4",
     "static/media/me1.jpg": "/my-react-website/static/media/me1.242e919f6f00b7e709ed.jpg",
     "static/media/Br5.JPG": "/my-react-website/static/media/Br5.8fe4bb50bc9c363965a0.JPG",
@@ -21,16 +21,16 @@
     "static/media/Br7.jpg": "/my-react-website/static/media/Br7.e4cf9795970c332c5d19.jpg",
     "static/media/Br10.jpg": "/my-react-website/static/media/Br10.cabf7410386db1f6c072.jpg",
     "static/media/fa-regular-400.ttf": "/my-react-website/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
-    "static/media/resume.pdf": "/my-react-website/static/media/resume.58904f85708ed23fa840.pdf",
+    "static/media/resume.pdf": "/my-react-website/static/media/resume.a46375e3c6e7199f7c2f.pdf",
     "static/media/fa-regular-400.woff2": "/my-react-website/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/fa-v4compatibility.ttf": "/my-react-website/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/my-react-website/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/my-react-website/index.html",
     "main.546b2ea6.css.map": "/my-react-website/static/css/main.546b2ea6.css.map",
-    "main.22a0ea24.js.map": "/my-react-website/static/js/main.22a0ea24.js.map"
+    "main.da5f9ab5.js.map": "/my-react-website/static/js/main.da5f9ab5.js.map"
   },
   "entrypoints": [
     "static/css/main.546b2ea6.css",
-    "static/js/main.22a0ea24.js"
+    "static/js/main.da5f9ab5.js"
   ]
 }
