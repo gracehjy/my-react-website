@@ -8,12 +8,23 @@ export const TechnicalContainer = styled.div`
 `
 
 export const TechnicalWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+    "header header"
+    "col1 col2";
   align-items: flex-start;
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 24px;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "header"
+      "col1"
+      "col2";
+  }
 `;
 
 export const TopLine = styled.p`
@@ -43,7 +54,7 @@ export const Heading = styled.h1`
 `
 
 export const Description = styled.p`
-  max-width: 440px;
+  max-width: 100%;
   margin-bottom: 35px;
   font-size: 16px;
   line-height: 24px;
@@ -72,7 +83,7 @@ export const TagContainer = styled.div`
     max-width: 100%;
     box-sizing: border-box;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 910px) {
         flex-wrap: wrap; 
     }
 `
@@ -82,4 +93,20 @@ export const TagCloud = styled.div`
     border-radius: 25px;
     background-color: #567585;
     font-size: 14px;
-    `
+`
+
+export const Column1 = styled.div`
+  margin-bottom: 15px;
+  margin-right: 50px;
+  grid-area: col1;
+`
+
+export const Column2 = styled.div`
+  margin-bottom: 15px;
+  grid-area: col2;
+  
+`
+
+export const HeaderRow = styled.div`
+  grid-area: header;
+`
