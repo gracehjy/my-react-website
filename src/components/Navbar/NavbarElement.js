@@ -30,7 +30,7 @@ export const NavbarContainer = styled.div`
   z-index: 1;
   width: 100%;
   padding: 0 24px;
-  max-width: 1300px;
+  max-width: 1350px;
 `
 
 export const NavLogo = styled(LinkR)`
@@ -70,8 +70,11 @@ export const NavMenu = styled.ul`
   text-align: center;
   align-items: center;
   list-style-type: none;
-  gap: 2rem;
-  padding-right: 12px;
+  /* gap: 2rem; */
+  /* padding-right: 12px; */
+  padding-right: 0; /* Ensure no extra padding on the right */
+  margin-right: 0; /* Ensure no extra margin on the right */
+  
   
   
   @media screen and (max-width: 768px) {
@@ -81,6 +84,11 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
   height: 70px;
+   margin-right: 2rem; 
+
+  &:last-child {
+    margin-right: 24px;
+  }
 `
 
 export const NavLinks = styled(LinkS)`

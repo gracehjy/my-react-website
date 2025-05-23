@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ExperienceContainer, ExperienceWrapper, ExperienceRow, ExperienceCard, TopLine2, Description, ResumeSection, ResumeText, TopLine, TextWrapper, Heading } from './ExperienceElement'
-import Resume from '../../pdfs/resume.pdf';
+import Resume from '../../pdfs/Resume.pdf'
 import { Reveal } from '../Reveal';
 
 const ExperienceSection = () => {

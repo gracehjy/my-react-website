@@ -1,14 +1,9 @@
 import styled, { css } from 'styled-components';
 
 export const ContactContainer = styled.div`
-  margin-top: 8%;
   color: #000;
   background: #fff;
-  margin-bottom: 8%;
-
-  @media screen and (max-width: 768px) {
-    padding: 100px 0;
-  }
+  padding: 85px 30px 0px 30px;
 `
 
 export const ContactWrapper = styled.div`

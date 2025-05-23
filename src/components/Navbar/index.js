@@ -40,10 +40,13 @@ const Navbar = ({ toggle, isOpen }) => {
                     <NavLinks as={LinkS} smooth={true} duration={800} spy={true} exact={true} offset={-70} to="home">Home</NavLinks>
                 </NavItem>
                 <NavItem>
-                    <NavLinks as={LinkS} smooth={true} duration={800} spy={true} exact={true} offset={-80} to="about">About</NavLinks>
+                    <NavLinks as={LinkS} smooth={true} duration={800} spy={true} exact={true} offset={-50} to="about">About</NavLinks>
                 </NavItem>
                 <NavItem>
-                    <NavLinks as={LinkS} smooth={true} duration={800} spy={true} exact={true} offset={-70} to="experience">Experience</NavLinks>
+                    <NavLinks as={LinkS} smooth={true} duration={800} spy={true} exact={true} offset={-40} to="skills">Skills</NavLinks>
+                </NavItem>
+                <NavItem>
+                    <NavLinks as={LinkS} smooth={true} duration={800} spy={true} exact={true} offset={-40} to="experience">Experience</NavLinks>
                 </NavItem>
                 <NavItem>
                     <NavLinks as={LinkS} smooth={true} duration={800} spy={true} exact={true} offset={-80} to="contact">Contact</NavLinks>

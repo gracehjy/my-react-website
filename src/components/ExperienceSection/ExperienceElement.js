@@ -2,11 +2,11 @@ import styled, { css } from 'styled-components';
 
 export const ExperienceContainer = styled.div`
   background-color: rgba(56, 75, 85, 0.80);
-  padding: 85px 0;
+  padding: 85px 30px;
   height: 100%;
 
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 100px 30px;
   }
 `;
 
